@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="src/index.css">
+    <script src="https://kit.fontawesome.com/8be31a1edc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="full">
+       <div class="left-container">
+        <div class="left">
+            <div class="photo">
+                <img src="src/img/kumar.png" alt="error" srcset="">
+            </div>
+            <button class="box" onclick="aboutfun()">
+                <i class='fas fa-user-alt'></i>
+                <span>About</span>
+            </button>
+            <button class="box" onclick="projectfun()">
+                <i class='far fa-folder'></i>
+                <span>Project</span></button>
+            <button class="box" onclick=" aboutfun()">
+                <i class='fas fa-poll' style="margin-right:0.23rem !important"></i>
+                <span>Skills</span></button>
+            <button class="box" onclick="educationfun()">
+                <i class='fas fa-graduation-cap' style="font-size:1.3rem;"></i>
+                <span style="margin:0.5em;">Education</span></button>
+            <button class="box" onclick=" contactmefun()">
+                <i class="fa fa-envelope" style="font-size:1.3rem; margin-right:0.1rem !important"></i>
+                <span>Contact Me</span></button>
+            <a href="src/Kumar Ranjan Pandey_1DS19EC161.pdf" target="_blank"><button class="box">
+                    <i class='fas fa-file-alt' style="margin-right:0.35rem !important"></i>
+                    <span> Resume</span></button></a>
+        </div>
+       </div>
+        <div class="right">
+            <div class="home">
+                <div class="homeContent">
+                    <h1><b>Hi, I am Kumar Ranjan Pandey</b></h1>
+                    <p>Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving a complex
+                        and challenging real-world problems.</p>
+                    <div class="icon">
+                        <a href="https://github.com/kumarRanjanDSCE">
+                            <i class="fa-brands fa-github" id="k1" style="font-size:1.7rem; margin-left: 0;"></i>
+    
+                        </a>
+                        <a href="https://www.linkedin.com/in/kumar-ranjan-pandey-6512651b5/">
+                            <i class="fa fa-linkedin" aria-hidden="true" id="k2" style="font-size:1.7rem;"></i>
+    
+                        </a>
+                    </div>
+                    <div class="read">
+                        <button class="btn1" onclick="aboutfun()">Read More</button>
+                        <button class="btn2" onclick="contactmefun()">Contact me</button>
+                    </div>
+                </div>
+            </div>
+            <div class="about1">
+                <h1 class="content">ABOUT</h1>
+                <div class="aboutcontent">
+                    <p>Currently,I am a Pursuing B.E in Electronic and Communication Engineering from Dayananda Sagar College of Engineering.
+                        I enjoy problem-solving and coding. Always strive to bring 100% to the work I do.
+                        I have worked on technologies like Python,MongoDB, HTML5,
+                        CSS, Java, C++ during my bachelor's.
+                        I am passionate about developing complex applications that solve real-world problems impacting
+                        millions of users.I have solved 1000+ problems of DSA on differnet palteforms like Hackerrank,Codechef,codeforces,GeeksforGeeks,Leetcode</p>
+                    <ul class="list">
+                        <li><b>Languages:</b>C,C++,Python,Javascript </li>
+                        <li><b>Technologies:</b>HTML,CSS,DBMS,Operating System,Oops,ComputerNetworks</li>
+                        <li><b>Database:</b>MongoDB</li>
+                        <li><b>Hardware:</b>Arduino,Microcontroller-8051</li>
+                    </ul>
+                    <p style="margin-top:1rem;">
+                        Looking for an opportunity to work in a challenging position combining my skills in Software
+                        Engineering, which provides professional development, interesting experiences and personal
+                        growth.
+                    </p>
+                </div>
+
+            </div>
+            <div class="Project">
+                <h1 class="content">PROJECT</h1>
+                <div class="projectcontent">
+                    <div class="card">
+                        <div class="cardimage">
+                            <img src="./src/img/Doctor.jpeg" alt="" srcset="">
+                        </div>
+                        <div class="cardfooter">
+                            <h4>DoctorG</h4>
+                            <p>Display The wheather Report Of a Location</p>
+                            <i class="fa fa-ellipsis-v" aria-hidden="true" onclick="dotfun(this)"></i>
+                        </div>
+                        <div class="invisible" style="display:none;">
+                            <i class="fa fa-close" style="position:absolute; right:1rem; top:1rem;"
+                                onclick="closefun(this)"></i>
+                            <ul>
+                                <li>
+                                    <b>Tools:</b>HTML,CSS,JavaScript <br>  MongoDB,NodeJs,Pug
+                                </li>
+                                <li>
+                                    A user can take appointment from a Doctor,also make its profile,takes news related to the health
+                                </li>
+
+                            </ul>
+                            <div class="icon1" style="margin-top:auto;">
+                                <hr style="width:100%;">
+                                <a href="https://github.com/kumarRanjanDSCE/DocG"><i class="fa-brands fa-github"
+                                        style="font-size:2rem;"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="cardimage">
+                            <img src="./src/img/Car.jpeg" alt="" srcset="">
+                        </div>
+                        <div class="cardfooter">
+                            <h4>Car-Game</h4>
+                            <p>Display The wheather Report Of a Location</p>
+                            <i class="fa fa-ellipsis-v" aria-hidden="true" onclick="dotfun(this)"></i>
+                        </div>
+                        <div class="invisible" style="display:none;">
+                            <i class="fa fa-close" style="position:absolute; right:1rem; top:1rem;"
+                                onclick="closefun(this)"></i>
+                            <ul>
+                                <li>
+                                    <b>Tools:</b>HTML,CSS,JAVASCRIPT
+                                </li>
+                                <li>
+                                    A palyer score points by crossing the car near to another car
+                                </li>
+
+                            </ul>
+                            <div class="icon1" style="margin-top:auto;">
+                                <hr style="width:100%;">
+                                <a href="https://github.com/kumarRanjanDSCE/Car-Game"><i class="fa-brands fa-github"
+                                        style="font-size:2rem;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="cardimage">
+                            <img src="./src/img/wheather.jpg" alt="" srcset="">
+                        </div>
+                        <div class="cardfooter">
+                            <h4>Wheather-Report</h4>
+                            <p>Display The wheather Report Of a Location</p>
+                            <i class="fa fa-ellipsis-v" aria-hidden="true" onclick="dotfun(this)"></i>
+                        </div>
+                        <div class="invisible" style="display:none;">
+                            <i class="fa fa-close" style="position:absolute; right:1rem; top:1rem;"
+                                onclick="closefun(this)"></i>
+                            <ul>
+                                <li>
+                                    <b>Tools:</b>REACTJS
+                                </li>
+                                <li>
+                                    Display The wheather Report Of a Location
+                                </li>
+                            </ul>
+                            <div class="icon1" style="margin-top:auto;">
+                                <hr style="width:100%;">
+                                <a href="https://github.com/kumarRanjanDSCE/React-Weather-app"><i
+                                        class="fa-brands fa-github" style="font-size:2rem;"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="cardimage">
+                            <img src="./src/img/Snake.png" alt="" srcset="">
+                        </div>
+                        <div class="cardfooter">
+                            <h4>Snake-Game</h4>
+                            <p>A child game</p>
+                            <i class="fa fa-ellipsis-v" aria-hidden="true" onclick="dotfun(this)"></i>
+                        </div>
+                        <div class="invisible" style="display:none;">
+                            <i class="fa fa-close" style="position:absolute; right:1rem; top:1rem;"
+                                onclick="closefun(this)"></i>
+                            <ul>
+                                <li>
+                                    <b>Tools:</b>HTML,CSS,JAVASCRIPT,REACTJS
+                                </li>
+                                <li>
+                                    The player controls a long, thin creature, resembling a snake, which roams around on a bordered plane, picking up food (or some other item), trying to avoid hitting its own tail or the edges of the playing area. Each time the snake eats a piece of food, its tail grows longer, making the game increasingly difficult.
+                                </li>
+
+                            </ul>
+                            <div class="icon1" style="margin-top:auto;">
+                                <hr style="width:100%;">
+                                <a href="https://github.com/kumarRanjanDSCE/Snake-Game"><i class="fa-brands fa-github"
+                                        style="font-size:2rem;"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="Edu">
+                <h1 class="Eduh">EDUCATION</h1>
+                <div class="Educon">
+                    <div class="card">
+                        <h1>Dayananda Sagar College of Engineering</h1>
+                        <p id="add">Kumarswami Layout Bangalore-560078</p>
+                        <ul class="list">
+                            <li>2019-2023</li>
+                            <li>
+                                <b>Degree: </b>B.E
+                            </li>
+                            <li>
+                                <b>Stream: </b>Electronic and Communication Engineering
+                            </li>
+                            <li>
+                                <b>CGPA: </b>8.3/10
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="card">
+                        <h1>M.D.J Public School</h1>
+                        <p id="add">Lohali Tola,Bhojpur-802301</p>
+                        <ul class="list">
+                            <li>2016-2018</li>
+                            <li>
+                                <b>Degree: </b>High School
+                            </li>
+                            <li>
+                                <b>Stream: </b>Science
+                            </li>
+                            <li>
+                                <b>Percentage: </b>81%
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="card">
+                        <h1>B.D Public School</h1>
+                        <p id="add">Arrah,Bhojpur-802301</p>
+                        <ul class="list">
+                            <li>2014-2016</li>
+                            <li>
+                                <b>Degree: </b>Secondary School
+                            </li>
+                            <li>
+                                <b>Stream: </b>Science
+                            </li>
+                            <li>
+                                <b>Percentage: </b>9.6/10
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="Contact">
+                <h1 class="content">CONTACT DETAILS</h1>
+                <div class="Cotcont">
+                    <div class="conBtm" id="Email">
+                        <i class="fa fa-envelope" id="env" aria-hidden="true"></i>
+                        <span><a href="kranjanpandey8294@gmail.com">
+                                kranjanpandey8294@gmail.com
+                            </a></span>
+                    </div>
+                    <div class="conBtm" id="Phone">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <span><a href="8294668545">
+                                8294668545
+                            </a></span>
+                    </div>
+                    <div class="conBtm" id="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                        <span><a href="https://github.com/kumarRanjanDSCE">
+                                github.com/kumarRanjanDSCE
+                            </a></span>
+                    </div>
+
+                    <div class="conBtm" id="LinkDin">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <span><a href="https://www.linkedin.com/in/kumar-ranjan-pandey-6512651b5/">
+                                linkedin.com/in/kumar-ranjan-pandey-6512651b5
+                            </a></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- navbarin mobile view -->
+    <div class="navbar">
+        <i class="fas fa-bars"></i>
+        <h2 style=" color: rgb(0, 107, 93); margin-bottom: 0.3rem;">
+            Kumar Ranjan Pandey
+        </h2>
+        <p>Software Developer</p>
+    </div>
+
+
+    <script src="src/index.js"></script>
+</body>
+
+</html>
